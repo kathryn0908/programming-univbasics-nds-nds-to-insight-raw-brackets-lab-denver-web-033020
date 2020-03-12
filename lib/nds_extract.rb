@@ -17,7 +17,7 @@ require 'pry'
   #
   # Be sure to return the result at the end!
   
-# pp directors_database
+pp directors_database
  #p directors_database[0][:movies][][:worldwide_gross]
   #p directors_database[0][:name]
 
@@ -42,6 +42,7 @@ i += 1
 end 
 hash 
 end
+
 
 
 
