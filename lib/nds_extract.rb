@@ -32,7 +32,7 @@ hash = {}
 i = 0 
 while i < nds.length do 
   director_name = nds[i][:name]
-
+ hash[director_name] = 0
 n = 0 
   while n < nds[i][:movies].length
   hash[director_name] += nds[i][:movies][n][:worldwide_gross]
